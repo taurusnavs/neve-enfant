@@ -115,8 +115,8 @@ a.elementor-item.elementor-gallery-title:hover{
 }
 
 .anim1 img{
-	-webkit-animation: moveleftbounce 10s linear infinite;
-    animation: moveleftbounce 10s linear infinite;
+	-webkit-animation: moveleftbounce 20s linear infinite;
+    animation: moveleftbounce 20s linear infinite;
 }
 
 .anim2 img{
@@ -184,8 +184,9 @@ a.elementor-item.elementor-gallery-title:hover{
 }
 
 /**/
-@media screen and (min-width: 1367px)
+@media screen and (min-width: 1367px){
 .e-con-full{
     padding-right: 50px !important;
     padding-left: 50px !important;
+}
 }
