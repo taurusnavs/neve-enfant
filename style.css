@@ -1,0 +1,191 @@
+/*
+Theme Name:     Neve Enfant
+Description:    Thème enfant
+Author:         Haga Andrianavalona
+Author URI:     https://haga-andrianavalona.logika.mg/
+Template:       neve                         
+Version:        3.7.4
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*theme color*/
+.yellow-color
+{
+	color: #D6FB00;
+}
+
+.pink-color
+{
+	color: #FE157B;
+}
+
+/*Customize fonts*/
+.custFont .elementor-icon-list-text{
+    -webkit-text-stroke-width: 1px;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #54595F;
+    stroke: #54595F;
+	
+}
+
+/*Scroll bar*/
+body::-webkit-scrollbar
+{
+	width: 0.2em;
+}
+.elementor-popup-modal .dialog-message.dialog-lightbox-message::-webkit-scrollbar {
+    width: 0.2em;
+}
+  
+body::-webkit-scrollbar-track
+{
+	background: #161616;
+	box-shadow: inset 0.05em 0 0 #838383;
+}
+
+.elementor-popup-modal .dialog-message.dialog-lightbox-message::-webkit-scrollbar-track {
+    background: #161616;
+	box-shadow: inset 0.05em 0 0 #838383;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background: linear-gradient(to top, #ffffff 0%, #ffffff  51%, #1C2335 100%);
+	border-radius: 0.6em;
+	box-shadow: inset 0.15em 0.1em 0.1em rgba(255, 255, 255, 0.5);
+	inset: -015em -0.1em 0.1em rgba(0, 0, 0, 0.3);
+}
+
+.elementor-popup-modal .dialog-message.dialog-lightbox-message::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, #ffffff 0%, #ffffff  51%, #1C2335 100%);
+	border-radius: 0.6em;
+	box-shadow: inset 0.15em 0.1em 0.1em rgba(255, 255, 255, 0.5);
+	inset: -015em -0.1em 0.1em rgba(0, 0, 0, 0.3);
+}
+
+.e-fab-whatsapp{
+	fill: #61ce70 !important;
+	animation: pulse 2s infinite;
+}
+
+.swiper-slide-contents{
+	margin-top: 18% !important;
+}
+
+/*Liste icon animation*/
+.elementor-icon-list-items > li{
+	transition: all 0.5s cubic-bezier(0.215,0.61,0.355,1);
+}
+
+.elementor-icon-list-items > li:hover {
+    transform: translate(10px, 0);
+    transition: all 0.7s;
+}
+
+/*Popup customise*/
+/*
+#elementor-popup-modal-2321 .dialog-widget-content{
+	border-radius: 20px;
+}
+
+.elementor-2321 .elementor-element.elementor-element-d582986.e-con {
+	border-radius: 20px;
+}
+*/
+/*Galerie filter*/
+a.elementor-item.elementor-gallery-title.elementor-item-active{
+	background-color: #D6FB00;
+}
+
+.e-gallery-item.elementor-gallery-item{
+	border-radius: 10px;
+}
+
+a.elementor-item.elementor-gallery-title{
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+a.elementor-item.elementor-gallery-title:hover{
+	background: #D6FB00;
+}
+
+.anim1 img{
+	-webkit-animation: moveleftbounce 10s linear infinite;
+    animation: moveleftbounce 10s linear infinite;
+}
+
+.anim2 img{
+	-webkit-animation: animationFramesOne 20s linear infinite;
+    animation: animationFramesOne 20s linear infinite;
+}
+
+.anim3 img{
+	-webkit-animation: animationFramesTwo 20s linear infinite;
+    animation: animationFramesTwo 20s linear infinite;
+}
+
+.anim4 img{
+	-webkit-animation: rotate3d 20s linear infinite;
+    animation: rotate3d 20s linear infinite;
+}
+
+.animhov:hover img{
+	-webkit-animation: animationFramesOne 20s linear infinite;
+    animation: animationFramesOne 20s linear infinite;
+}
+
+.pulse-animation .elementor-button{
+	animation: tes 0.3s infinite;
+}
+
+@-webkit-keyframes animationFramesOne{0%{transform:translate(0) rotate(0deg)}20%{transform:translate(73px,-1px) rotate(36deg)}40%{transform:translate(141px,72px) rotate(72deg)}60%{transform:translate(83px,122px) rotate(108deg)}80%{transform:translate(-40px,72px) rotate(144deg)}to{transform:translate(0) rotate(0deg)}}
+@keyframes animationFramesOne{0%{transform:translate(0) rotate(0deg)}20%{transform:translate(73px,-1px) rotate(36deg)}40%{transform:translate(141px,72px) rotate(72deg)}60%{transform:translate(83px,122px) rotate(108deg)}80%{transform:translate(-40px,72px) rotate(144deg)}to{transform:translate(0) rotate(0deg)}}
+@-webkit-keyframes animationFramesTwo{0%{transform:translate(0) rotate(0deg)}20%{transform:translate(-73px,1px) rotate(-36deg)}40%{transform:translate(-141px,-72px) rotate(-72deg)}60%{transform:translate(-83px,-122px) rotate(-108deg)}80%{transform:translate(40px,-72px) rotate(-144deg)}to{transform:translate(0) rotate(0deg)}}
+@keyframes animationFramesTwo{0%{transform:translate(0) rotate(0deg)}20%{transform:translate(-73px,1px) rotate(-36deg)}40%{transform:translate(-141px,-72px) rotate(-72deg)}60%{transform:translate(-83px,-122px) rotate(-108deg)}80%{transform:translate(40px,-72px) rotate(-144deg)}to{transform:translate(0) rotate(0deg)}}
+@-webkit-keyframes rotate3d{0%{transform:rotateY(0deg)}to{transform:rotateY(1turn)}}
+@keyframes rotate3d{0%{transform:rotateY(0deg)}to{transform:rotateY(1turn)}}
+@keyframes moveleftbounce{0%{transform:translateX(0px)}50%{transform:translateX(20px)}100%{transform:translateX(0px)}}
+
+.icon-animation .elementor-icon {
+	animation: pulse-effect 3s infinite;
+}
+
+@keyframes pulse-effect {
+    0% {
+		-moz-box-shadow: 0 0 0 0 rgba(254, 21, 123, 0.7);
+        box-shadow: 0 0 0 0 rgba(254, 21, 123, 0.7);
+	}
+    70% {
+		-moz-box-shadow: 0 0 0 40px rgba(227, 252, 85, 0);
+        box-shadow: 0 0 0 40px rgba(227, 252, 85, 0);
+	}
+    100% {
+		-moz-box-shadow: 0 0 0 0 rgba(214, 251, 0, 0);
+        box-shadow: 0 0 0 0 rgba(214, 251, 0, 0);
+		border-radius: 50%;
+    }
+}
+
+@-webkit-keyframes pulse-effect {
+    0% {
+		-webkit-box-shadow: 0 0 0 0 rgba(254, 21, 123, 0.7);          
+    }
+    70% {
+		-webkit-box-shadow: 0 0 0 40px rgba(227, 252, 85, 0);          
+    }
+    100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(214, 251, 0, 0);         
+    }
+}
+
+/**/
+@media screen and (min-width: 1367px)
+.e-con-full{
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
